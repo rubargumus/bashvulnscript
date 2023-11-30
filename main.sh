@@ -1,7 +1,5 @@
 #!/bin/bash
-
-sudo su
-apt-get update && apt-get full-upgrade && apt-get autoremove
+sudoapt-get update && apt-get full-upgrade && apt-get autoremove
 sudo apt install figlet 
 clear
 echo "url =>"
